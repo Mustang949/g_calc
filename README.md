@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+Pull the code locally from github.
 
-* Deployment instructions
+In the g_calc directory run the command:
+bundle install # installs gems
 
-* ...
+bundle exec rspec --color --format doc # run all tests
